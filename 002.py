@@ -8,9 +8,6 @@ def solve():
         if term2 % 2 == 0: 
             answer += term2
         term1, term2 = term2, term1 + term2
-        #nextterm = term1 + term2
-        #term1 = term2
-        #term2 = nextterm
     
     return answer
     
